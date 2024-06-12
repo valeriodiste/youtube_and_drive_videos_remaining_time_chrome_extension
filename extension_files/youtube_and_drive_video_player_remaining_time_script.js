@@ -2,9 +2,6 @@
  * This script is used to calculate the remaining time of a video while playing in the Google Drive vidoe player (i.e. the standard YouTube video player).
  * 
  * To use this, paste in in the console of the browser while the Dvire video player is showing and while playing a video.
- * 
- * NOTE 1: sometimes you may need to copy the link of the video fila ena past it to a new tab to open it in a dedicated view (not in preview), othersise the script might not work...
- * NOTE 2: For the script to work properly, a trick is to inspect the current video duration's infos (i.e. playback time and total duration, next to the play/pause button) using chrome's web tools (e.g. click "Ctrl + Shift + C" and then click on the durations HTML elements), then paste this script in the console.
 */
 
 function UpdatePageWithRemainingTimeInformation(printDebug = true) {
