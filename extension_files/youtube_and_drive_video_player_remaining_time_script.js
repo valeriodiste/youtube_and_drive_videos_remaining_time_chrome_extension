@@ -8,7 +8,7 @@
 */
 
 function UpdatePageWithRemainingTimeInformation(printDebug = true) {
-	// For the element with class "ytp-time-separator", take the value fo "ytl-time-current" and ytp-time-duration" and calculate the ramining time, then update the "ytp-time-separator" and set it to " / [remaining time] / ", at every update of "ytp-time-current"
+	// For the element with class "ytp-time-separator", take the value of "ytl-time-current" and ytp-time-duration" and calculate the ramining time, then update the "ytp-time-separator" and set it to " / [remaining time] / ", at every update of "ytp-time-current"
 	let current = document.querySelector('.ytp-time-current');
 	let duration = document.querySelector('.ytp-time-duration');
 	let separator = document.querySelector('.ytp-time-separator');
